@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS3 Q3 GFA2</title>
+</head>
+<body>
+    <h1>Computer Science 3 - Graded Formative Assessment 2</h1>
+
+    <img id="image" src="images/image1.jpg" alt="*" height="300px"> <br>
+
+    <button onclick="imageChange()">Change Image</button>
+    <button onclick="revertImage()">Revert Image</button>
+
+    <script>
+        function imageChange(){
+            image.src = 'images/image2.jpg';
+        }
+
+        function revertImage(){
+            image.src = 'images/image1.jpg';
+        }
+    </script>
+</body>
+</html>
